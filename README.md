@@ -1,11 +1,14 @@
-## RANK-OF-A-MATRIX
+# RANK-OF-A-MATRIX
 ## Aim:
 To write a python program to find the rank of a matrix
 ## Equipment’s required:
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
-## Algorithm: 
-Step : Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
+# Algorithm: 
+## Step 1 : Input the matrix ( A ).
+## Step 2 : Convert ( A ) to row echelon form.
+## Step 3 : Count the number of rows with non-zero element.
+## Step 4 : The rank is equal to the count of non-zero rows.
 
 ## Program:
 ```
